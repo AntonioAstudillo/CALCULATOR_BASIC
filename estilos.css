@@ -1,0 +1,22 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Inconsolata', monospace;
+}
+.contenedor{
+   margin: 0 auto;
+   width: 400px;
+   margin-top: 50px;
+   color: #080708;
+}
+
+.contorno{
+   border: 2px solid black;
+}
+
+.botones{
+   width: 90px;
+   height: 50px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+}

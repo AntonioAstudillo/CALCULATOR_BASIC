@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Calculadora Básica</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="estilos.css">
+   </head>
+   <body>
+
+      <div class="contenedor contorno">
+         <div class="container">
+            <h1>Calculadora Básica</h1>
+            <div class="row">
+               <div class="col-12">
+                  <input id="display" class="form-control mb-3" readonly type="text" placeholder="0">
+               </div>
+            </div>
+            <div class="row">
+               <button id="7" value="7" class="botones btn btn-outline-info">7</button>
+               <button id="8" value="8" class="botones btn btn-outline-info">8</button>
+               <button id="9" value="9" class="botones btn btn-outline-info">9</button>
+               <button id="clear" value="c" class="botones btn btn-outline-dark">C</button>
+            </div>
+
+            <div class="row">
+               <button id="4" value="4" class="botones btn btn-outline-info">4</button>
+               <button id="5" value="5" class="botones btn btn-outline-info">5</button>
+               <button id="6" value="6" class="botones btn btn-outline-info">6</button>
+               <button id="suma" value="+" class="botones btn btn-outline-warning">+</button>
+            </div>
+
+            <div class="row">
+               <button id="1" value="1" class="botones btn btn-outline-info">1</button>
+               <button id="2" value="2" class="botones btn btn-outline-info">2</button>
+               <button id="3" value="3" class="botones btn btn-outline-info">3</button>
+               <button id="resta" value="-" class="botones btn btn-outline-warning">-</button>
+            </div>
+
+            <div class="row">
+               <button id="multi" value="*" class="botones btn btn-outline-warning">*</button>
+               <button id="div" value="/" class="botones btn btn-outline-warning">/</button>
+               <button id="0" value="0" class="botones btn btn-outline-warning">0</button>
+               <button id="factori" value="!" class="botones btn btn-outline-warning">!</button>
+            </div>
+
+            <div class="row">
+               <div class="col">
+                  <button id="igual" value="=" class="btn btn-outline-success w-100 mt-2 mb-2">=</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="proceso.js" charset="utf-8"></script>
+   </body>
+</html>
